@@ -1,0 +1,8 @@
+Le travail à effectuer sera sur un nouveau jeu de données. Pour cela, il faudra télécharger le jeu de données EMNIST qui correspond à une extension de MNIST étudié en TP. Pour charger les données, il faut récupérer le fichier gzip.zip et extraire la partie intitulé byclass-train-labels et byclass-train-images. Ensuite, vous pourrez utiliser le module MnistReader comme précédement. Pour le projet, vous devrez effectuer les opérations suivantes:
+
+extraire les images correspondants aux classes 10-21 du jeu de données (cela correspond à A, B, ..., L).
+diviser en deux ensembles les données extraites, mettre Na images dans l'ensemble d'apprentissage et Nv dans l'ensemble de validation. Attention, il ne faudra pas qu'une même image se trouve dans les deux ensembles.
+
+
+
+http://www.itl.nist.gov/iaui/vip/cs_links/EMNIST/gzip.zip
